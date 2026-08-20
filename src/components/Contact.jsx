@@ -1,5 +1,5 @@
 import { FaGithub, FaInstagram } from "react-icons/fa";
-import { HiOutlineMail, HiOutlinePhone } from "react-icons/hi";
+import { HiOutlineMail } from "react-icons/hi";
 import useRevealOnScroll from "../hooks/useRevealOnScroll";
 
 const CHANNELS = [
@@ -8,12 +8,6 @@ const CHANNELS = [
     label: "email",
     value: "alsrb012900@naver.com",
     href: "mailto:alsrb012900@naver.com",
-  },
-  {
-    icon: <HiOutlinePhone />,
-    label: "phone",
-    value: "010-3227-7041",
-    href: "tel:010-3227-7041",
   },
   {
     icon: <FaInstagram />,
